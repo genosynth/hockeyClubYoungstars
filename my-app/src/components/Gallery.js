@@ -21,16 +21,6 @@ import img15 from "../images/pasta.jpg"
 import img16 from "../images/morebaguettes.jpg"
 
 
-
-
-
-const style ={
-    width:"1000px",
-    marginLeft: "auto",
-    marginRight: "auto",
-    display: "block"
-}
-
 export default function Gallery() {
   const data = [
     {
