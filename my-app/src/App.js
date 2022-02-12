@@ -1,11 +1,11 @@
 import './App.css';
-
 import {BrowserRouter as Router, Switch, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Menu from './components/Menu';
 import Gallery from './components/Gallery';
 import OpeningHours from './components/OpeningHours';
-import Contact from './components/Contact'
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -21,6 +21,8 @@ function App() {
         <Route path="/contact"  element={<Contact></Contact>}/> 
         </Routes>
       </Router>
+
+      <Footer></Footer>
     </div>
   );
 }

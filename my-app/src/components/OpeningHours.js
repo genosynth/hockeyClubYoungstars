@@ -4,8 +4,8 @@ import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
 const key = process.env.REACT_APP_GOOGLE_API_KEY;
 
 const containerStyle = {
-  width: '1200px',
-  height: '1200px',
+  width: '400px',
+  height: '400px',
   position: "relative"
    
 
