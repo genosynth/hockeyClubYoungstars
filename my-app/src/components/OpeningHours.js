@@ -19,7 +19,9 @@ const center = {
 
 export default function Map() {
   return (
-  <div className='pagesBox'>
+
+    <div className='pagebackgroundContact'>
+  <div className='pagesBox' style={{backgroundColor:"black", opacity:"80%"}}>
     <h1> OPENING HOURS</h1>
     <h2>Monday - 06:00 - 14:30</h2>
     <h2>Tuesday - 06:00 - 14:00</h2>
@@ -52,6 +54,7 @@ export default function Map() {
         <></>
       </GoogleMap>
     </LoadScript>
+    </div>
     </div>
   )
 }

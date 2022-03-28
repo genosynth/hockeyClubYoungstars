@@ -68,14 +68,16 @@
   margin-right:20%;
   color: whitesmoke;
   font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif; 
-  text-align: center;  
+  text-align: center; 
+
+ 
   
 }
 
-.pagebackground {
-  background-image:url("./images/logo.jpg");
-  background-repeat: repeat;
-  background-size: 20%;
+.pagebackgroundContact {
+  background-image:url("./images/frontbarview.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
   background-position: center;
  
 }
@@ -162,5 +164,6 @@
 
 #root {
   background-color: black;
+
 }
 
